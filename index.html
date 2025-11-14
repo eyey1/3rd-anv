@@ -127,7 +127,7 @@
       }
 
       .textCont {
-        font-size: 150%;
+        font-size: 200%;
         margin: 10%;
         width: 80%;
         max-width: 800px;
@@ -271,7 +271,11 @@
       }, 400);
 
       /* Typing */
-      const text = "My Sweet Lover, ... ILY";
+      const text = `Happy 3rd anniversary, my love!
+
+Can you believe it? Three full Earth orbits together. Three spins around the Sun, countless laughs, hundreds of sleepy moments, and a lifetime of stolen smiles. Somehow, in these 3 orbits, you’ve stolen my heart completely — and I wouldn’t want it back even if I could. 
+We’ve had our ups, our tiny disasters, our iconic chaos moments, and somehow we always find our way back to each other. It’s like we’re two magnets with zero braincells but infinite feelings — and honestly, that’s the best kind of love. Even though we had a rough patch, with misunderstandings and days that felt heavier than the Sun, we somehow pulled through — stronger, closer, and somehow sillier than before. Every argument, every awkward silence, every “why did that happen?” moment only reminded me how much I want to navigate life with you, flaws, chaos, and all. You turned those storms into laughter, the tension into teasing, and the quiet into a kind of understanding I didn’t know existed. 
+And now, looking back, I can’t help but smile — because even the hard moments were ours, and I wouldn’t trade them for a single smooth day with anyone else. Every little stumble becomes a story we’ll laugh about for years.  I love you in all the ways — the calm, the goofy, the “I miss you even when you’re right next to me” way. I love you in the patient way, in the clingy way, and in the “please don’t leave yet, can we stay like this forever?” way. Here’s to us — to our messy little adventures, to our tiny-but-precious moments, and to the big future I can’t wait to build with you. To every days we’ve stolen, every laugh we’ve shared, and every random hug that makes the world disappear for a second. Thank you for being my person, my constant, my goofiest, cutest, sexiest, hottest, most intelligent hooman being, MY GOAT, and the best kind of mischief partner. WELL, that's three orbits down, a lifetime to go — and I’ll choose you every single one.`;
       const paragraph = text.split("");
       let i = 0;
 
@@ -287,8 +291,8 @@
 
       function interval(letter) {
         return letter == ";" || letter == "." || letter == ","
-          ? Math.random() * 500 + 500
-          : Math.random() * 130 + 5;
+          ? Math.random() * 300 + 200
+          : Math.random() * 80 + 5;
       }
 
       function startTyping() {
